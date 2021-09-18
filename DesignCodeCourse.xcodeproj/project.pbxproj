@@ -78,8 +78,8 @@
 				FB420F9E26E90B61008FA5B3 /* DesignCodeCourseApp.swift */,
 				FBCF40B426EC9DBD00AD067C /* Navigation */,
 				FBCF40B526EC9DFD00AD067C /* Items */,
+				FBB9E3C426F5E5D4001F2B22 /* Model */,
 				FB461E0B26EB084F0075A395 /* CoursesView.swift */,
-				FB03C67026F24FB50054AEC4 /* Course.swift */,
 				FBCF40B626EC9EA300AD067C /* CourseList.swift */,
 				FB420FA026E90B62008FA5B3 /* Assets.xcassets */,
 			);
@@ -110,6 +110,14 @@
 				FB420FB026E90B62008FA5B3 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		FBB9E3C426F5E5D4001F2B22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB03C67026F24FB50054AEC4 /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FBCF40B426EC9DBD00AD067C /* Navigation */ = {
