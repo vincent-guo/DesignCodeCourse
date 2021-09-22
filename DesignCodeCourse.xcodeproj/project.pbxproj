@@ -27,6 +27,8 @@
 		FB1C87D126FC44BB00886958 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87C426FC44BB00886958 /* TutorialSection.swift */; };
 		FB1C87D226FC44BB00886958 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87C526FC44BB00886958 /* CourseSection.swift */; };
 		FB1C87D326FC44BB00886958 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87C526FC44BB00886958 /* CourseSection.swift */; };
+		FB1C87D526FC44BB00886958 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87D426FC44BB00886958 /* VisualEffectBlur.swift */; };
+		FB1C87D726FC44BB00886958 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87D626FC44BB00886958 /* VisualEffectBlur.swift */; };
 		FB420FB126E90B62008FA5B3 /* DesignCodeCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB420F9E26E90B61008FA5B3 /* DesignCodeCourseApp.swift */; };
 		FB420FB226E90B62008FA5B3 /* DesignCodeCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB420F9E26E90B61008FA5B3 /* DesignCodeCourseApp.swift */; };
 		FB420FB326E90B62008FA5B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB420F9F26E90B61008FA5B3 /* ContentView.swift */; };
@@ -56,6 +58,8 @@
 		FB1C87C326FC44BB00886958 /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		FB1C87C426FC44BB00886958 /* TutorialSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
 		FB1C87C526FC44BB00886958 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		FB1C87D426FC44BB00886958 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		FB1C87D626FC44BB00886958 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		FB420F9E26E90B61008FA5B3 /* DesignCodeCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeCourseApp.swift; sourceTree = "<group>"; };
 		FB420F9F26E90B61008FA5B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB420FA026E90B62008FA5B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,8 +108,8 @@
 			children = (
 				FB420F9E26E90B61008FA5B3 /* DesignCodeCourseApp.swift */,
 				FBCF40B426EC9DBD00AD067C /* Navigation */,
-				FBCF40B526EC9DFD00AD067C /* Items */,
 				FBB9E3C426F5E5D4001F2B22 /* Model */,
+				FBCF40B526EC9DFD00AD067C /* Items */,
 				FB461E0B26EB084F0075A395 /* CoursesView.swift */,
 				FB1C87BC26FC44BB00886958 /* CourseDetail.swift */,
 				FB1C87B926FC44BB00886958 /* CloseButton.swift */,
@@ -127,6 +131,7 @@
 		FB420FA726E90B62008FA5B3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FB1C87D426FC44BB00886958 /* VisualEffectBlur.swift */,
 				FB420FA826E90B62008FA5B3 /* Info.plist */,
 			);
 			path = iOS;
@@ -135,6 +140,7 @@
 		FB420FAE26E90B62008FA5B3 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				FB1C87D626FC44BB00886958 /* VisualEffectBlur.swift */,
 				FB420FAF26E90B62008FA5B3 /* Info.plist */,
 				FB420FB026E90B62008FA5B3 /* macOS.entitlements */,
 			);
@@ -286,6 +292,7 @@
 				FB1C87CC26FC44BB00886958 /* Livestream.swift in Sources */,
 				FB461E0C26EB084F0075A395 /* CoursesView.swift in Sources */,
 				FB1C87C826FC44BB00886958 /* Download.swift in Sources */,
+				FB1C87D526FC44BB00886958 /* VisualEffectBlur.swift in Sources */,
 				FB1C87C626FC44BB00886958 /* GradientModel.swift in Sources */,
 				FBCF40B726EC9EA300AD067C /* CourseList.swift in Sources */,
 			);
@@ -310,6 +317,7 @@
 				FB1C87CD26FC44BB00886958 /* Livestream.swift in Sources */,
 				FB461E0D26EB084F0075A395 /* CoursesView.swift in Sources */,
 				FB1C87C926FC44BB00886958 /* Download.swift in Sources */,
+				FB1C87D726FC44BB00886958 /* VisualEffectBlur.swift in Sources */,
 				FB1C87C726FC44BB00886958 /* GradientModel.swift in Sources */,
 				FBCF40B826EC9EA300AD067C /* CourseList.swift in Sources */,
 			);
