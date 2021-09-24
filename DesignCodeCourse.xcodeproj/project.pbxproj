@@ -32,6 +32,8 @@
 		FB1C87D926FCD4A800886958 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87D826FCD4A800886958 /* TabBar.swift */; };
 		FB1C87DB26FCE18800886958 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87DA26FCE18800886958 /* CourseSectionDetail.swift */; };
 		FB1C87DC26FCE18800886958 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87DA26FCE18800886958 /* CourseSectionDetail.swift */; };
+		FB1C87E126FDF7B800886958 /* LibraryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87E026FDF7B800886958 /* LibraryContent.swift */; };
+		FB1C87E226FDF7B800886958 /* LibraryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C87E026FDF7B800886958 /* LibraryContent.swift */; };
 		FB420FB126E90B62008FA5B3 /* DesignCodeCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB420F9E26E90B61008FA5B3 /* DesignCodeCourseApp.swift */; };
 		FB420FB226E90B62008FA5B3 /* DesignCodeCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB420F9E26E90B61008FA5B3 /* DesignCodeCourseApp.swift */; };
 		FB420FB326E90B62008FA5B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB420F9F26E90B61008FA5B3 /* ContentView.swift */; };
@@ -65,6 +67,7 @@
 		FB1C87D626FC44BB00886958 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		FB1C87D826FCD4A800886958 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		FB1C87DA26FCE18800886958 /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
+		FB1C87E026FDF7B800886958 /* LibraryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryContent.swift; sourceTree = "<group>"; };
 		FB420F9E26E90B61008FA5B3 /* DesignCodeCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeCourseApp.swift; sourceTree = "<group>"; };
 		FB420F9F26E90B61008FA5B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB420FA026E90B62008FA5B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB1C87E326FDFD3400886958 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FB1C87B926FC44BB00886958 /* CloseButton.swift */,
+				FB1C87E026FDF7B800886958 /* LibraryContent.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		FB420F9826E90B61008FA5B3 = {
 			isa = PBXGroup;
 			children = (
@@ -115,10 +127,10 @@
 				FBCF40B426EC9DBD00AD067C /* Navigation */,
 				FBB9E3C426F5E5D4001F2B22 /* Model */,
 				FBCF40B526EC9DFD00AD067C /* Items */,
+				FB1C87E326FDFD3400886958 /* Library */,
 				FB461E0B26EB084F0075A395 /* CoursesView.swift */,
 				FB1C87BC26FC44BB00886958 /* CourseDetail.swift */,
 				FB1C87DA26FCE18800886958 /* CourseSectionDetail.swift */,
-				FB1C87B926FC44BB00886958 /* CloseButton.swift */,
 				FBCF40B626EC9EA300AD067C /* CourseList.swift */,
 				FB420FA026E90B62008FA5B3 /* Assets.xcassets */,
 			);
@@ -303,6 +315,7 @@
 				FB1C87C826FC44BB00886958 /* Download.swift in Sources */,
 				FB1C87D526FC44BB00886958 /* VisualEffectBlur.swift in Sources */,
 				FB1C87C626FC44BB00886958 /* GradientModel.swift in Sources */,
+				FB1C87E126FDF7B800886958 /* LibraryContent.swift in Sources */,
 				FBCF40B726EC9EA300AD067C /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +343,7 @@
 				FB1C87D726FC44BB00886958 /* VisualEffectBlur.swift in Sources */,
 				FB1C87C726FC44BB00886958 /* GradientModel.swift in Sources */,
 				FBCF40B826EC9EA300AD067C /* CourseList.swift in Sources */,
+				FB1C87E226FDF7B800886958 /* LibraryContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
